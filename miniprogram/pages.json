@@ -1,0 +1,122 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^van-(.*)": "@vant/weapp/lib/$1/index.js"
+		}
+	},
+	"pages": [{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "开心购",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/cate/cate",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+				"navigationBarTitleText": "开心购"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "开心购"
+			}
+		},
+		{
+			"path": "pages/promotion/promotion",
+			"style": {
+				"navigationBarTitleText": "开心购"
+			}
+		}
+	],
+	"subPackages": [{
+		"root": "subpkg",
+		"pages": [{
+				"path": "search/search",
+				"style": {
+					"navigationBarTitleText": "搜索"
+				}
+			},
+			{
+				"path": "product-detail/product-detail",
+				"style": {
+					"navigationStyle": "custom"
+				}
+			},
+			{
+				"path": "store-list/store-list",
+				"style": {
+					"navigationBarTitleText": "果园列表"
+				}
+			},
+			{
+				"path" : "test/test",
+				"style" : 
+				{
+					"navigationBarTitleText" : ""
+				}
+			},
+			
+			{
+				"path" : "store-detail/store-detail",
+				"style" : 
+				{
+					"navigationBarTitleText" : "门店详情"
+				}
+			}
+
+		]
+	}],
+	"tabBar": {
+		"selectedColor": "#9ACD32",
+		"list": [{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "/static/icon/home.png",
+				"selectedIconPath": "/static/icon/home-active.png"
+			},
+			{
+				"pagePath": "pages/cate/cate",
+				"text": "分类",
+				"iconPath": "/static/icon/cate.png",
+				"selectedIconPath": "/static/icon/cate-active.png"
+			},
+			{
+				"pagePath": "pages/promotion/promotion",
+				"text": "水果生鲜",
+				"iconPath": "/static/icon/promotion.png",
+				"selectedIconPath": "/static/icon/promotion-active.png"
+			},
+			{
+				"pagePath": "pages/cart/cart",
+				"text": "购物车",
+				"iconPath": "/static/icon/cart.png",
+				"selectedIconPath": "/static/icon/cart-active.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "/static/icon/my.png",
+				"selectedIconPath": "/static/icon/my-active.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "xxgo",
+		"navigationBarBackgroundColor": "#F0FFF0",
+		"backgroundColor": "#F0FFF0"
+		// "usingComponents": {
+		// 	"van-popup":"@vant/weapp/dist/van-popup/index"
+		// }
+	},
+	"uniIdRouter": {}
+}

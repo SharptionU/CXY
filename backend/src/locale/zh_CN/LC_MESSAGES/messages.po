@@ -1,0 +1,56 @@
+# Chinese (Simplified, China) translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-05 15:02+0800\n"
+"PO-Revision-Date: 2025-08-05 15:02+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_Hans_CN\n"
+"Language-Team: zh_Hans_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: api/endpoint/public.py:41
+msgid "authentication failed"
+msgstr "认证失败！请检查密码或账户名称"
+
+#: api/endpoint/public.py:64
+msgid "register success"
+msgstr "注册成功！"
+
+#: api/endpoint/public.py:68
+msgid "user already exist"
+msgstr "用户已存在！"
+
+#: api/endpoint/swiper.py:30
+msgid "create success"
+msgstr "创建成功！"
+
+#: api/endpoint/swiper.py:35
+msgid "create failed"
+msgstr "创建失败！"
+
+#: api/endpoint/swiper.py:46
+msgid "invalid update data"
+msgstr "无效的变更数据！"
+
+#: api/endpoint/swiper.py:52
+msgid "object not exist"
+msgstr "对象不存在"
+
+#: api/endpoint/swiper.py:61
+msgid "delete success"
+msgstr "删除成功！"
+
+#: api/endpoint/swiper.py:65
+msgid "delete failed"
+msgstr "删除失败！"
+

@@ -1,0 +1,56 @@
+# English (United States) translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-05 15:02+0800\n"
+"PO-Revision-Date: 2025-08-05 15:03+0800\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en_US\n"
+"Language-Team: en_US <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: api/endpoint/public.py:41
+msgid "authentication failed"
+msgstr "authentication failed!"
+
+#: api/endpoint/public.py:64
+msgid "register success"
+msgstr "register success!"
+
+#: api/endpoint/public.py:68
+msgid "user already exist"
+msgstr "user already exist!"
+
+#: api/endpoint/swiper.py:30
+msgid "create success"
+msgstr "create success!"
+
+#: api/endpoint/swiper.py:35
+msgid "create failed"
+msgstr "create failed!"
+
+#: api/endpoint/swiper.py:46
+msgid "invalid update data"
+msgstr "invalid update data!"
+
+#: api/endpoint/swiper.py:52
+msgid "object not exist"
+msgstr "object not exist!"
+
+#: api/endpoint/swiper.py:61
+msgid "delete success"
+msgstr "delete success!"
+
+#: api/endpoint/swiper.py:65
+msgid "delete failed"
+msgstr "delete failed!"
+
